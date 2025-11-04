@@ -8,6 +8,7 @@ public class SpendEntity {
     private int accountId;
     private Category category;
     private int spend;
+    private String description;
 
     public int getId() {
         return id;
@@ -42,6 +43,15 @@ public class SpendEntity {
 
     public SpendEntity setSpend(int spend) {
         this.spend = spend;
+        return this;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public SpendEntity setDescription(String description) {
+        this.description = description;
         return this;
     }
 }

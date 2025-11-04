@@ -3,7 +3,7 @@ package example.data;
 import java.util.Arrays;
 
 public enum Category {
-    SHOP("Магазины"), FUEL("АЗС"), BAR("Бары");
+    SHOP("Магазины"), FUEL("АЗС"), BAR("Бары"), FLOWER("Цветы");
 
     private final String description;
 
